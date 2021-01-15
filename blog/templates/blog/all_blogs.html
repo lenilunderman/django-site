@@ -1,0 +1,8 @@
+All Blogs are here
+
+{% for blog in blogs %}
+    <h1>{{blog.title}}</h1>
+    <h5>{{blog.description}}</h5>
+    <p>{{blog.date}}</p>
+
+{% endfor %}
